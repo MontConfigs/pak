@@ -90,6 +90,11 @@
 						offset = CFrame.Angles(math.rad(0), math.rad(0), math.rad(90)),
 						model = import:WaitForChild("Bow"),
 					},
+                                        					{
+						name = "arrow",
+						offset = CFrame.Angles(math.rad(0), math.rad(0), math.rad(90)),
+						model = import:WaitForChild("Arrow"),
+					},
 				}
 				local func = Workspace.Camera.Viewmodel.ChildAdded:Connect(function(tool)	
 					if not tool:IsA("Accessory") then return end	
